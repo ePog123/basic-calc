@@ -1,4 +1,4 @@
-# rust-calc
+# basic-calc
 A basic TUI calculator written in rust.
 
 #### Compilation instructions
