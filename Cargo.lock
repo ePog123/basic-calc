@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "calc"
-version = "0.1.0"
+name = "basic-calc"
+version = "1.0.0"
