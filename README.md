@@ -10,4 +10,4 @@ cargo build --release
 in src/ directory  
 
 
-executable will be placed at target/release/calc(.exe)
+executable will be placed at ../target/release/calc(.exe)
