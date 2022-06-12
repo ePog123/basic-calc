@@ -1,2 +1,2 @@
 # rust-calc
-A basic calculator written in rust.
+A basic TUI calculator written in rust.
