@@ -30,16 +30,16 @@ fn main() {
 
     loop {
         if function.trim() == "+".to_string() {
-            println!("{}", functions::add(num1, num2));
+            println!("{} {} {} = {}", num1, function.trim(), num2, functions::add(num1, num2));
             break;
         } else if function.trim() == "*".to_string() {
-            println!("{}", functions::mlt(num1, num2));
+            println!("{} {} {} = {}", num1, function.trim(), num2, functions::mlt(num1, num2));
             break;
         } else if function.trim() == "/".to_string() {
-            println!("{}", functions::div(num1, num2));
+            println!("{} {} {} = {}", num1, function.trim(), num2, functions::div(num1, num2));
             break;
         } else if function.trim() == "-".to_string() {
-            println!("{}", functions::sub(num1, num2));
+            println!("{} {} {} = {}", num1, function.trim(), num2, functions::sub(num1, num2));
             break;
         } else {
             panic!("Enter valid function")
